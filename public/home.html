@@ -1,0 +1,39 @@
+
+<div id="home">
+  <div class="toolbar">
+    <h1>Ashcan Comics
+    </h1><a href="#about" class="infoButton button slideup">About</a><a href="#menu" class="menuButton button leftButton slideright">Menu</a>
+  </div>
+  <div class="inject">
+  </div>
+  <footer>
+    <p><small>&copy; Copyright Ashcan 2011-2012</small>
+    </p>
+  </footer>
+</div><script id="swipe-comics-template" type="text/template" charset="utf-8">
+    <div class="swipe">
+      <ul class="swipe-wrap edgetoedge">
+        {{#comics}}
+          <li>
+            <a href="#comic" class="flip" data-issue="{{issue}}">
+              <img data-url="{{cover}}_{200:200,400:320,1600:400}.jpg" data-display="block" alt="" />
+            </a>
+          </li>
+        {{/comics}}
+      </ul>
+    </div>
+  </div>
+  <nav class="toolbar bottom">
+    <a href="#" onclick="window.comicSlider.prev();return false;" class="prev leftButton button">
+      <em>prev</em>
+    </a>
+    <span class="position">
+      {{#comics}}
+        <em>•</em>
+      {{/comics}}
+    </span>
+    <a href="#" onclick="window.comicSlider.next();return false;" class="next rightbutton button">
+      <em>next</em>
+    </a>
+  </nav>
+</script>

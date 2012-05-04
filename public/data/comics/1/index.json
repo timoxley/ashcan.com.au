@@ -1,0 +1,202 @@
+{
+  "date":"14/9/2010",
+  "description":"",
+  "price":"5",
+  "code": "ZEWH3AEWNVL2C",
+  "stories":[
+    {
+      "name":"Collapse",
+      "contributors":[
+        {
+          "name":"Carlos Hurworth",
+          "contribution":"Writer",
+          "url":"submergeweb@hotmail.com "
+        },
+        {
+          "name":"Katie Lee Grech",
+          "contribution":"Illustrator",
+          "url":"http://katieleegrech.blogspot.com.au/"
+        }
+      ]
+    },
+    {
+      "name":"Minimum Rage",
+      "contributors":[
+        {
+          "name":"David Diezel",
+          "contribution":"Writer",
+          "url":"wellboundp@gmail.com"
+        },
+        {
+          "name":"John Menla",
+          "contribution":"Illustrator"
+        }
+      ]
+    },
+    {
+      "name":"Samuel Sitardust",
+      "contributors":[
+        {
+          "name":"Benjamin Constantine",
+          "contribution":"Writer/Illustrator",
+          "url":"http://slickstringstrummed.tumblr.com"
+        }
+      ]
+    },
+    {
+      "name":"Nogitsune Apocalypse",
+      "contributors":[
+        {
+          "name":"Kade Morton",
+          "contribution":"Writer",
+          "url":"http://digitalscripturealpha.blogspot.com.au"
+        },
+        {
+          "name":"Anthony Cheung",
+          "contribution":"Illustrator",
+          "url":"http://anthonysarts.deviantart.com"
+        }
+      ]
+    },
+    {
+      "name":"Lucid II",
+      "contributors":[
+        {
+          "name":"Thomas Lockwood",
+          "contribution":"Writer",
+          "url":"axismech@gmail.com"
+        },
+        {
+          "name":"Zachary Smith-Cameron",
+          "contribution":"Illustrator",
+          "url":"http://iamzac.deviantart.com"
+        }
+      ]
+    },
+    {
+      "name":"Thoughts. A story about attraction.",
+      "contributors":[
+        {
+          "name":"Christiana Zimmerman",
+          "contribution":"Writer",
+          "url":"christiana_zimmerman@hotmail.com"
+        },
+        {
+          "name":"Bethany Munro",
+          "contribution":"Illustrator"
+        }
+      ]
+    },
+    {
+      "name":"Rice Gruel Dreaming",
+      "contributors":[
+        {
+          "name":"Douglas St Clair",
+          "contribution":"Writer/Illustrator",
+          "url":"dest77@hotmail.com"
+        }
+      ]
+    },
+    {
+      "name":"I'm Walking On Sunshine",
+      "contributors":[
+        {
+          "name":"Scott Wellington",
+          "contribution":"Writer",
+          "url":"frothingdonkey@hotmail.com"
+        },
+        {
+          "name":"Darren Fisher",
+          "contribution":"Illustrator",
+          "url":"dazran77@gmail.com"
+        }
+      ]
+    },
+    {
+      "name":"King of Nails",
+      "contributors":[
+        {
+          "name":"Jonathan McBurnie",
+          "contribution":"Illustrator",
+          "url":"jmcburnie@gmail.com"
+        }
+      ]
+    },
+    {
+      "name":"Cyclops Boy, Asylum & Jim",
+      "contributors":[
+        {
+          "name":"Nelson Gibbins",
+          "contribution":"Writer/Illustrator",
+          "url":"http://www.g-i-b.deviantart.com"
+        },
+        {
+          "name":"Syreeta Reed",
+          "contribution":"Shading"
+        }
+      ]
+    },
+    {
+      "name":"Say Something",
+      "contributors":[
+        {
+          "name":"Chris Pollock",
+          "contribution":"Writer",
+          "url":"chris@loss4words.com"
+        },
+        {
+          "name":"Mel Brindell",
+          "contribution":"Illustrator",
+          "url":"mellisse_@hotmail.com"
+        }
+      ]
+    },
+    {
+      "name":"A Fish Named Dexter",
+      "contributors":[
+        {
+          "name":"Liz Callaghan",
+          "contribution":"Writer",
+          "url":"antispasmo@hotmail.com "
+        },
+        {
+          "name":"Nicole Boreham",
+          "contribution":"Illustrator",
+          "url":"nicole.m.boreham@gmail.com"
+        }
+      ]
+    },
+    {
+      "name":"Emily",
+      "contributors":[
+        {
+          "name":"Daniel Klieve",
+          "contribution":"Writer",
+          "url":"dklieve@gmail.com "
+        },
+        {
+          "name":"Ellena Linden",
+          "contribution":"Illustrator",
+          "url":"http://www.ellenalinden.com"
+        }
+      ]
+    },
+    {
+      "name":"Violent Dancing Is For Dickheads",
+      "contributors":[
+        {
+          "name":"Shaun Craike",
+          "contribution":"Writer/Illustrator",
+          "url":"http://shaunc.deviantart.com"
+        }
+      ]
+    }
+  ],
+  "pages":[
+    "/data/comics/1/pages/0.jpg",
+    "/data/comics/1/pages/1.jpg",
+    "/data/comics/1/pages/2.jpg",
+    "/data/comics/1/pages/3.jpg",
+    "/data/comics/1/pages/4.jpg"
+  ]
+}

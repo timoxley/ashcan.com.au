@@ -1,0 +1,189 @@
+{
+  "date":"14/04/2011",
+  "description":"",
+  "price":"5",
+  "code": "CU6899GU8WT38",
+  "stories":[
+    {
+      "name":"Lucid II",
+      "contributors":[
+        {
+          "name":"Thomas Lockwood",
+          "contribution":"Writer",
+          "url":"axismech@gmail.com"
+        },
+        {
+          "name":"Zachary Smith-Cameron",
+          "contribution":"Illustrator",
+          "url":"http://iamzac.deviantart.com"
+        }
+      ]
+    },
+    {
+      "name":"Those Legendary Dreamkillers",
+      "contributors":[
+        {
+          "name":"Giles Kilham",
+          "contribution":"Writer/Illustrator",
+          "url":"https://www.facebook.com/pages/Phatsville-Comix/71645272100"
+        }
+      ]
+    },
+    {
+      "name":"Nogitsune Apocalypse 2",
+      "contributors":[
+        {
+          "name":"Kade Morton",
+          "contribution":"Writer",
+          "url":"http://digitalscripturealpha.blogspot.com.au"
+        },
+        {
+          "name":"Troy Duguid",
+          "contribution":"Illustrator",
+          "url":"http://trofdugweed.tumblr.com"
+        }
+      ]
+    },
+    {
+      "name":"Dudley 'n' Jazz",
+      "contributors":[
+        {
+          "name":"David Babore",
+          "contribution":"Writer/Illustrator",
+          "url":"http://davebabore.blogspot.com.au"
+        }
+      ]
+    },
+    {
+      "name":"Speed and Slowness",
+      "contributors":[
+        {
+          "name":"Joseph Robinson",
+          "contribution":"Writer",
+          "url":"joseph.r.email@gmail.com"
+        },
+        {
+          "name":"Amy Parkinson",
+          "contribution":"Illustrator",
+          "url":"a.parka@hotmail.com"
+        }
+      ]
+    },
+    {
+      "name":"Untitled",
+      "contributors":[
+        {
+          "name":"Carlos Hurworth",
+          "contribution":"Writer",
+          "url":"submergeweb@hotmail.com "
+        },
+        {
+          "name":"Samantha Yallope",
+          "contribution":"Illustrator",
+          "url":"syallope@gmail.com"
+        }
+      ]
+    },
+    {
+      "name":"Cemetary",
+      "contributors":[
+        {
+          "name":"John Stewart",
+          "contribution":"Writer/Illustrator",
+          "url":"jstew1978@gmail.com"
+        }
+      ]
+    },
+    {
+      "name":"The Bucktooth Brothers",
+      "contributors":[
+        {
+          "name":"Ryan Dickson",
+          "contribution":"Writer"
+        },
+        {
+          "name":"Dale Dickson",
+          "contribution":"Illustrator",
+          "url":"sickdog4@hotmail.com"
+        }
+      ]
+    },
+    {
+      "name":"Sweet Sixteen",
+      "contributors":[
+        {
+          "name":"Scott Wellington",
+          "contribution":"Writer",
+          "url":"frothingdonkey@hotmail.com"
+        },
+        {
+          "name":"Katie Lee Grech",
+          "contribution":"Illustrator",
+          "url":"http://katieleegrech.blogspot.com.au/"
+        }
+      ]
+    },
+    {
+      "name":"Lord Desmond",
+      "contributors":[
+        {
+          "name":"Cam-El",
+          "contribution":"Writer/Illustrator",
+          "url":"http://despicableman.com"
+        }
+      ]
+    },
+    {
+      "name":"The Confessional",
+      "contributors":[
+        {
+          "name":"Jason Gorman",
+          "contribution":"Illustrator",
+          "url":"http://jasongorman.com.au "
+        }
+      ]
+    },
+    {
+      "name":"Renegades",
+      "contributors":[
+        {
+          "name":"Seth Vayu",
+          "contribution":"Writer",
+          "url":"sethlans@hotmail.com"
+        },
+        {
+          "name":"Tom Ward",
+          "contribution":"Illustrator",
+          "url":"scribblepit@hotmail.com"
+        }
+      ]
+    },
+    {
+      "name":"Og 'n' Dop: Walk in the Park pt I",
+      "contributors":[
+        {
+          "name":"Martin Buckingham",
+          "contribution":"Writer/Illustrator",
+          "url":"marlu01@iprimus.com.au"
+        }
+      ]
+    },
+    {
+      "name":"Gone Fishing",
+      "contributors":[
+        {
+          "name":"Nelson Gibbins",
+          "contribution":"Writer/Illustrator",
+          "url":"http://www.g-i-b.deviantart.com"
+        }
+      ]
+    }
+  ],
+  "pages":[
+    "http://ashcan-data.staticloud.com/comics/2/pages/0.jpg",
+    "http://ashcan-data.staticloud.com/comics/2/pages/1.jpg",
+    "http://ashcan-data.staticloud.com/comics/2/pages/2.jpg",
+    "http://ashcan-data.staticloud.com/comics/2/pages/3.jpg",
+    "http://ashcan-data.staticloud.com/comics/2/pages/4.jpg"
+  ]
+}

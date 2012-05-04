@@ -1,0 +1,113 @@
+{
+  "date": "25/2/2012",
+  "description": "",
+  "price": "5",
+  "code": "CSRZDQARBQTMN",
+  "stories": [{
+    "name": "The Invincible Monkeyman",
+    "contributors": [{
+      "name": "Milan Ilich",
+      "contribution": "Writer/Illustrator",
+      "url": "milan@ashcan.com.au"
+    }]
+  },
+  {
+    "name": "Clown",
+    "contributors": [
+      {
+        "name": "James P. Wall",
+        "contribution": "Writer",
+        "url": "jamespwall@gmail.com"
+      },
+      {
+        "name": "Tessa Bright",
+        "contribution": "Illustrator",
+        "url": "cherry_blossom1412@hotmail.com"
+      },
+      {
+        "name": "Jessica Knight",
+        "contribution": "Illustrator",
+        "url": "slinky_0308@hotmail.com"
+      }
+      ]
+    },
+    {
+      "name": "iRreplaceable",
+      "contributors": [
+        {
+          "name": "Jeremy Robinson",
+          "contribution": "Writer",
+          "url": "jezainoz@gmail.com"
+        },
+        {
+          "name": "Sara Fonesca",
+          "contribution": "Illustrator",
+          "url": "sfonesca89@hotmail.com"
+        }
+      ]
+    },
+    {
+      "name": "The Fifth Level",
+      "contributors": [
+        {
+          "name": "Daniel Watts",
+          "contribution": "Writer/Illustrator",
+          "url": "e.monkey@live.com.au"
+        },
+        {
+          "name": "Zac Smith-Cameron",
+          "contribution": "Lettering",
+          "url": "zac@ashcan.com.au"
+        }
+      ]
+    },
+    {
+      "name": "Socially Awkward",
+      "contributors": [
+        {
+          "name": "Darren Fisher",
+          "contribution": "Writer/Illustrator",
+          "url": "dazran77@gmail.com"
+        }
+      ]
+    },
+    {
+      "name": "Og 'n' Dop: Walk in the Park pt III",
+      "contributors": [
+        {
+          "name": "Martin Buckingham",
+          "contribution": "Writer/Illustrator",
+          "url": "marlu01@iprimus.com.au"
+        }
+      ]
+    },
+    {
+      "name": "Cover Art",
+      "contributors": [
+        {
+          "name": "Wanye Nichols",
+          "contribution": "Illustrator",
+          "url": "http://www.wnichols.com"
+        },
+        {
+          "name": "EJ 'Filka' Zyla",
+          "contribution": "Illustrator",
+          "url": "http://torntranslations.com.au"
+        },
+        {
+          "name": "Peter Yong",
+          "contribution": "Illustrator",
+          "url": "http://peteryongart.blogspot.com.au"
+        }
+      ]
+    }
+  ],
+  "pages":
+  [
+    "http://ashcan-data.staticloud.com/comics/4/pages/0.jpg",
+    "http://ashcan-data.staticloud.com/comics/4/pages/1.jpg",
+    "http://ashcan-data.staticloud.com/comics/4/pages/2.jpg",
+    "http://ashcan-data.staticloud.com/comics/4/pages/3.jpg",
+    "http://ashcan-data.staticloud.com/comics/4/pages/4.jpg"
+  ]
+}

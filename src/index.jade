@@ -1,0 +1,38 @@
+!!! 5
+html
+  head
+    meta(charset='UTF-8')
+    meta(name="viewport", content="width=device-width")
+    //meta(name='apple-mobile-web-app-capable', content='yes')
+    //meta(name="apple-mobile-web-app-status-bar-style", content="black-translucent")
+    title Ashcan Comics
+    style(type='text/css', media='screen')
+      @import "/css/jqtouch.css?2";
+    style(type='text/css', media='screen')
+      @import "/css/style.css?1";
+    style(type='text/css', media='screen')
+      @import "/swipe/style.css";
+    script(src='/lib/hogan.min.js', type='text/javascript', charset='utf-8')
+    script(src='/lib/async.min.js', type='text/javascript', charset='utf-8')
+    script(src='/lib/jquery.min.js', type='text/javascript', charset='utf-8')
+    script(src='/lib/jqtouch.min.js', type='text/javascript', charset='utf-8')
+    script(src='/lib/jqtouch-jquery.min.js', type='text/javascript', charset='utf-8')
+    script(src='/swipe/swipe.js', type='text/javascript', charset='utf-8')
+    script(src='/lib/stativus.js', type='text/javascript', charset='utf-8')
+    script(src='/lib/molt-2.4.0.W.min.js', type='text/javascript', charset='utf-8')
+    script(src='/lib/imagesloaded.min.js', type='text/javascript', charset='utf-8')
+    script(type='text/javascript', src='/humane/humane.js')
+    link(rel='stylesheet', type='text/css', href='/humane/theme.css')
+      
+  body
+    #jqt
+      include pages/home
+      include pages/menu
+      include pages/about
+      include pages/news
+      include pages/comic
+      include pages/donate
+      include pages/thanks
+      include pages/contributor
+    script(src='/js/index.js?1', type='text/javascript', charset='utf-8')
+

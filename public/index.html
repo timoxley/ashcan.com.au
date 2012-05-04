@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <!--meta(name='apple-mobile-web-app-capable', content='yes')-->
+    <!--meta(name="apple-mobile-web-app-status-bar-style", content="black-translucent")-->
+    <title>Ashcan Comics
+    </title>
+    <style type="text/css" media="screen">@import "/css/jqtouch.css?2";
+</style>
+    <style type="text/css" media="screen">@import "/css/style.css?1";
+</style>
+    <style type="text/css" media="screen">@import "/swipe/style.css";
+</style>
+    <script src="/lib/hogan.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/lib/async.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/lib/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/lib/jqtouch.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/lib/jqtouch-jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/swipe/swipe.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/lib/stativus.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/lib/molt-2.4.0.W.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/lib/imagesloaded.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="/humane/humane.js"></script>
+    <link rel="stylesheet" type="text/css" href="/humane/theme.css">
+  </head>
+  <body>
+    <div id="jqt">
+      <div id="home">
+        <div class="toolbar">
+          <h1>Ashcan Comics
+          </h1><a href="#about" class="infoButton button slideup">About</a><a href="#menu" class="menuButton button leftButton slideright">Menu</a>
+        </div>
+        <div class="inject">
+        </div>
+        <footer>
+          <p><small>&copy; Copyright Ashcan 2011-2012</small>
+          </p>
+        </footer>
+      </div><script id="swipe-comics-template" type="text/template" charset="utf-8">
+    <div class="swipe">
+      <ul class="swipe-wrap edgetoedge">
+        {{#comics}}
+          <li>
+            <a href="#comic" class="flip" data-issue="{{issue}}">
+              <img data-url="{{cover}}_{200:200,400:320,1600:400}.jpg" data-display="block" alt="" />
+            </a>
+          </li>
+        {{/comics}}
+      </ul>
+    </div>
+  </div>
+  <nav class="toolbar bottom">
+    <a href="#" onclick="window.comicSlider.prev();return false;" class="prev leftButton button">
+      <em>prev</em>
+    </a>
+    <span class="position">
+      {{#comics}}
+        <em>•</em>
+      {{/comics}}
+    </span>
+    <a href="#" onclick="window.comicSlider.next();return false;" class="next rightbutton button">
+      <em>next</em>
+    </a>
+  </nav>
+</script>
+
+      <div id="menu">
+        <div class="toolbar">
+          <h1>Ashcan
+          </h1><a href="#menu" style="" class="menuButton button goback rightButton slideright">Back</a>
+        </div>
+        <ul class="rounded">
+          <li class="arrow"><a href="#home" style="" class="slideleft">Home</a>
+          </li>
+          <li class="arrow"><a href="#news" style="" class="slideleft">News</a>
+          </li>
+          <li class="arrow"><a href="#donate" style="" class="slideleft">Donate</a>
+          </li>
+          <li class="arrow"><a href="#about" style="" class="slideup">About</a>
+          </li>
+          <li class="arrow"><a href="mailto:zac@ashcan.com.au" style="" class="slideup">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div id="about" class="background messageUp">
+        <div class="content">
+          <h1>Artists &amp; Writers for Comic Book Collaboration
+          </h1>
+          <p>We are looking for queensland-based comic artists &amp; writers to contribute to a non-profit collaborative project. This is your opportunity to showcase your work in a new magazine distributed in the greater brisbane area &amp; beyond.  
+
+</p><a href="#" class="greenButton goback">Awesome!</a>
+        </div>
+      </div>
+      <div id="news">
+        <div class="toolbar">
+          <h1>Ashcan News
+          </h1><a href="#" class="back slideleft">Back</a>
+        </div>
+        <div class="scroll">
+          <ul class="rounded">
+            <li class="arrow"><a href="#news-1" class="slideLeft"><span>Site Update!</span><small class="counter">14/4/2001</small></a>
+            </li>
+          </ul>
+        </div>
+      </div><div id="news-1" class="news">
+  <div class="toolbar">
+    <h1>Site Update!</h1><a href="#" class="back">Back</a>
+  </div>
+  <div class="scroll">
+    <ul class="rounded">
+      <li class="headline">Site Update!<small
+        class="counter">14/4/2001</small></li>
+      <li class="article">
+      <p>Welcome to the new Ashcan site!  We're really happy to have a more
+      streamlined site which has all our comics available for digital and
+      physical purchase. Thanks to <a href="http://www.twitter.com/secoif">Tim Oxley</a> for setting up for us, much appreciated.</p>
+      <p>We will soon have a webcomic section!  You will be able to check out
+      free comics from Brisbane-based artists and writers. Drop us a line if you'd like to get some content of your on there too.</p>
+      <p>Supernova's less than a week away, the Ashcan team is excited and we can't wait to see you there.</p>
+      <p>-Zac | Lead Administrator</p>
+      </li>
+    </ul>
+    <p><a href="#" class="greenButton goback">Awesome!</a></p>
+  </div>
+</div>
+
+      <div id="comic">
+        <div class="toolbar">
+          <h1>Issue 1
+          </h1><a href="#" class="back slideleft">Back</a>
+        </div>
+        <div class="inject">
+        </div>
+      </div><script id="comic-detail-template" type="text/template" charset="utf-8">
+  <div class="swipe">
+    <ul class="swipe-wrap edgetoedge">
+      {{#pages}}
+        <li>
+          <img data-url="{{.}}_{200:200,1600:320}.jpg" data-display="block" alt="" />
+        </li>
+      {{/pages}}
+    </ul>
+  </div>
+  <nav class="toolbar bottom">
+    <a href="#" onclick="window.pageSlider.prev();return false;" class="prev leftButton button">
+      <em>prev</em>
+    </a>
+    <span class="position">
+      {{#pages}}
+        <em>•</em>
+      {{/pages}}
+    </span>
+    <a href="#" onclick="window.pageSlider.next();return false;" class="next rightbutton button">
+      <em>next</em>
+    </a>
+  </nav>
+  <div class="scroll details">
+    <ul class="rounded">
+      <li class="buy">
+        Ashcan Issue {{issue}}
+        <small>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="{{code}}">
+          <input onclick="submit()" type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" class="submit" alt="PayPal — The safer, easier way to pay online.">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </small>
+      </li>
+      <li><strong>Released</strong><small class="counter">{{date}}</small></li>
+      <li class="description">{{{description}}}</li>
+    </ul>
+    <ul class="rounded arrow stories">
+      <li class="sep"><h3>Contributions</h3></li>
+      {{#stories}}
+        <li class="story arrow">
+          <a data-story="{{name}}" href="#contributor">
+            <h4>{{name}}</h4>
+            {{#contributors}}
+              <small class="contributor count">
+                <em>{{name}}</em>
+              </small>
+            {{/contributors}}
+         </a>
+        </li>
+      {{/stories}}
+    </ul>
+
+  </div>
+</script>
+
+      <div id="donate" class="background">
+        <div class="toolbar">
+          <h1>Donate
+          </h1><a href="#" class="back fade">Back</a>
+        </div>
+        <div class="content center">
+          <ul class="rounded plastic">
+            <li>
+              <h2>Support local talent&hellip; Donate to Ashcan!
+              </h2>
+            </li>
+            <li><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="GBE7ZZEAXPHC4">
+<input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal — The safer, easier way to pay online.">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="thanks" class="messageUp background">
+        <div class="content">
+          <h1>Thanks for supporting Ashcan!
+          </h1>
+          <p>You are amazing.
+          </p><a href="#" class="greenButton goback">Yeehaw</a>
+        </div>
+      </div>
+      <div id="contributor">
+        <div class="toolbar">
+          <h1>Story
+          </h1><a href="#" class="back slideleft">Back</a>
+        </div>
+        <div class="inject">
+        </div>
+      </div><script id="contribution-detail-template" type="text/template" charset="utf-8">
+  <div class='scroll'>
+    <ul class='rounded'>
+      {{#contributors}}
+        <li class='contributorContact'>
+          <h3>{{name}}</h3>
+          <small class="contribution">{{contribution}}</small>
+          <small class="url"><a href="{{url}}">{{url}}</a></small>
+        </li>
+      {{/contributors}}
+    </ul>
+  </div>
+</script>
+
+
+    </div>
+    <script src="/js/index.js?1" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>

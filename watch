@@ -1,0 +1,9 @@
+#!/bin/sh
+sass --require ./jqtouch/scss/config.rb --scss --compass --watch ./jqtouch/scss:./public/css &
+stylus -w -o ./public/css/ ./src &
+while [ true ]; do
+ clear &&
+ jade -P -o "{filename: './src/index.jade'}" -O ./public ./src &&
+ coffee -co public src
+ sleep 3
+done

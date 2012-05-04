@@ -1,0 +1,123 @@
+{
+  "date": "21/4/2012",
+  "description": "",
+  "price": "5",
+  "code": "4WZSEFVEHQSFU",
+  "stories": 
+   [
+    {
+      "name": "Progression",
+      "contributors": [{
+      "name": "J.A. Glen",
+      "contribution": "Writer",
+      "url": "jordangnz@hotmail.com"
+    },
+    {
+      "name": "Emmanuel Hernaez",
+      "contribution": "Illustrator",
+      "url": "http://mojokingbee.deviantart.com"
+    }
+   ]
+  },
+  {
+    "name": "Little Red",
+    "contributors": [
+      {
+        "name": "Blaize Rhodes",
+        "contribution": "Writer",
+        "url": "blaize@pobox.com"
+      },
+      {
+        "name": "Katie Lee Grech",
+        "contribution": "Illustrator",
+        "url": "http://katieleegrech.blogspot.com.au/"
+      }      
+      ]
+    },
+    {
+      "name": "Trapped on Disaster Island",
+      "contributors": [
+        {
+          "name": "Cam-El",
+          "contribution": "Writer/Illustrator",
+          "url": "http://despicableman.com"
+        }
+      ]
+    },
+    {
+      "name": "True Wuv",
+      "contributors": [
+        {
+          "name": "Nelson Gibbins",
+          "contribution": "Writer/Illustrator",
+          "url": "http://www.g-i-b.deviantart.com"
+        }
+      ]
+    },
+    {
+      "name": "Punchline",
+       "contributors": [
+          {
+            "name": "Matthew Dansie",
+            "contribution": "Writer",
+            "url": "night_raven_87@hotmail.com"
+          },
+          {
+            "name": "Sophia Dique",
+            "contribution": "Illustrator",
+            "url": "http://sophiadique.wordpress.com"
+         }      
+      ]
+    },
+    {
+      "name": "Dudley 'n' Jazz",
+      "contributors": [
+        {
+          "name": "David Babore",
+          "contribution": "Writer/Illustrator",
+          "url": "http://davebabore.blogspot.com.au"
+        }
+      ]
+    },
+    {
+      "name": "Samuel Sitardust",
+      "contributors": 
+      [
+        {
+          "name": "Benjamin Constantine",
+          "contribution": "Writer/Illustrator",
+          "url": "http://slickstringstrummed.tumblr.com"
+        }
+      ]
+    },  
+    {
+      "name": "A Big Day Out Moment",
+      "contributors": 
+      [
+        {
+          "name": "Shaun Craike",
+          "contribution": "Writer/Illustrator",
+          "url": "http://shaunc.deviantart.com"
+        }
+      ]
+    },  
+    {
+      "name": "Cover Art",
+      "contributors": [
+        {
+          "name": "Luke Humphris",
+          "contribution": "Illustrator",
+          "url": "lukehumphris@gmail.com"
+        }
+      ]
+    }
+  ],
+  "pages":
+  [
+    "http://ashcan-data.staticloud.com/comics/5/pages/0.jpg",
+    "http://ashcan-data.staticloud.com/comics/5/pages/1.jpg",
+    "http://ashcan-data.staticloud.com/comics/5/pages/2.jpg",
+    "http://ashcan-data.staticloud.com/comics/5/pages/3.jpg",
+    "http://ashcan-data.staticloud.com/comics/5/pages/4.jpg"
+  ]
+}

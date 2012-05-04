@@ -1,0 +1,65 @@
+
+<div id="comic">
+  <div class="toolbar">
+    <h1>Issue 1
+    </h1><a href="#" class="back slideleft">Back</a>
+  </div>
+  <div class="inject">
+  </div>
+</div><script id="comic-detail-template" type="text/template" charset="utf-8">
+  <div class="swipe">
+    <ul class="swipe-wrap edgetoedge">
+      {{#pages}}
+        <li>
+          <img data-url="{{.}}_{200:200,1600:320}.jpg" data-display="block" alt="" />
+        </li>
+      {{/pages}}
+    </ul>
+  </div>
+  <nav class="toolbar bottom">
+    <a href="#" onclick="window.pageSlider.prev();return false;" class="prev leftButton button">
+      <em>prev</em>
+    </a>
+    <span class="position">
+      {{#pages}}
+        <em>•</em>
+      {{/pages}}
+    </span>
+    <a href="#" onclick="window.pageSlider.next();return false;" class="next rightbutton button">
+      <em>next</em>
+    </a>
+  </nav>
+  <div class="scroll details">
+    <ul class="rounded">
+      <li class="buy">
+        Ashcan Issue {{issue}}
+        <small>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="{{code}}">
+          <input onclick="submit()" type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" class="submit" alt="PayPal — The safer, easier way to pay online.">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </small>
+      </li>
+      <li><strong>Released</strong><small class="counter">{{date}}</small></li>
+      <li class="description">{{{description}}}</li>
+    </ul>
+    <ul class="rounded arrow stories">
+      <li class="sep"><h3>Contributions</h3></li>
+      {{#stories}}
+        <li class="story arrow">
+          <a data-story="{{name}}" href="#contributor">
+            <h4>{{name}}</h4>
+            {{#contributors}}
+              <small class="contributor count">
+                <em>{{name}}</em>
+              </small>
+            {{/contributors}}
+         </a>
+        </li>
+      {{/stories}}
+    </ul>
+
+  </div>
+</script>

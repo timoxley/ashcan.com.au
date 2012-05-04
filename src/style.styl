@@ -1,0 +1,249 @@
+.visible
+  visibility: hidden
+
+.invisible
+  visibility: visible
+
+.center
+  text-align: center
+  margin: 0 auto
+
+.swipe
+  overflow: hidden
+  visibility: hidden
+
+.swipe-wrap
+  overflow: hidden
+  position: relative
+
+.swipe-wrap > *
+  display: block
+  float:left
+  width:100%
+  position: relative
+
+#home
+  footer
+    color: #dce2e5
+    text-align: center
+    padding: 10px;
+
+body
+  #jqt
+    margin: 0 auto
+    max-width: 450px
+    .toolbar
+      background-image: none;
+      border-left: 1px solid #333;
+      border-right: 1px solid #333;
+      repeat: repeat-x
+      &.bottom
+        width: 100%;
+      .swipe
+        ul
+          margin-left: -1px;
+          min-height: 200px;
+          min-width: 320px;
+          li
+            padding: 1% 0;
+            min-height: 200px;
+            min-width: 320px;
+          img
+
+    .messageUp
+      p
+        line-height: 1.7
+      h1
+        color: #F39237
+      a
+        margin: 20px 0 
+    //-webkit-backface-visibility: hidden !important;
+    //-webkit-perspective: 1000 !important;
+    //-webkit-transform: none !important;
+
+html body nav
+  border-top: 1px #3A4146 solid
+  position: relative
+  .position
+    text-align:center
+    font-size:27px
+    line-height: 44px
+    color:#697279
+    display:block
+    position:absolute
+    top:0
+    left:50%
+    margin-left: -15%;
+    width: 30%;
+
+  .position em
+    display:inline-block
+    padding:0 2%
+    font-style:normal
+    text-shadow: 0 -1px 0 rgba(0,0,0,.35)
+    font-family:sans-serif
+
+  .position em.on
+    color:#fff
+
+  .prev
+    border-right:1px #232628 solid
+    text-decoration:none
+    
+
+  .prev em
+    font-style:normal
+    font-weight:bold
+    font-size:11px
+    text-transform:uppercase
+    color:#dce2e5
+    letter-spacing:1px
+    text-shadow: 0 -1px 0 rgba(0,0,0,.35)
+
+  .next
+    text-decoration:none
+
+  .next em
+    font-style:normal
+    font-weight:bold
+    font-size:11px
+    text-transform:uppercase
+    color:#dce2e5
+    letter-spacing:1px
+    text-shadow: 0 -1px 0 rgba(0,0,0,.35)
+
+body #home, body #comic
+  .swipe
+    ul li
+      text-align: center
+      padding: 10px 0
+      text-shadow: 0
+      border-top: none
+      img
+        vertical-align: middle
+      a.active
+        background: none
+        text-shadow: none
+
+#home 
+  .swipe 
+    a
+      img
+        box-shadow: 5px 5px 5px rgba(black, 0.1)
+
+body #comic
+  .details
+    margin: 0 auto
+    h3
+      text-align: center
+  .description
+    font-weight: normal
+    font-size: smaller
+    text-align: left
+  h2, h3
+    font-size: 160%
+    color: lighten(#BBBCBE, 40)
+    text-shadow -1px -1px 0px rgba(0,0,0, 0.3)
+    padding: 10px
+
+  .stories
+    
+    h4
+      color: lighten(#BBBCBE, 20) !important
+      margin-bottom: 5px;
+      max-width: 260px;
+    li:not(sep)
+      h4
+        border-bottom: none
+    .contributor
+      width: auto
+      max-width: auto
+      float: left
+      clear: left
+    .content
+      background: #3C3D3E
+
+#contributor
+  .contributorContact
+    text-align: left
+  .url
+    float: left !important
+    clear: left
+.buy form
+  display: inline
+  text-align: left
+
+.content
+  padding: 20px
+  margin: 1em auto
+  h1
+    font-size: 2em
+  margin: 0 auto
+  display: block
+  max-width: 320px
+  color: lighten(#BBBCBE, 20)
+  p
+    text-shadow -1px -1px 0px rgba(0,0,0, 0.3)
+    margin: 0.5em 20px 20px 1.5px
+
+#donate
+  h2
+    font-size: 150%
+    margin-bottom: 20px
+  .content
+    margin-top: 20%
+
+#jqt
+  .news
+    .article
+      font-weight: normal
+      a
+        display: inline
+
+#jqt
+  top: 0
+  &.gt480
+    overflow-x: visible
+    background-image: none;
+    background-image: none;
+    background-color: #3C3E3F;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #28292A), color-stop(100%, #303132));
+    background-image: -webkit-linear-gradient(top, #28292A, #303132);
+    background-image: -moz-linear-gradient(top, #28292A, #303132);
+    background-image: -o-linear-gradient(top, #28292A, #303132);
+    background-image: -ms-linear-gradient(top, #28292A, #303132);
+    background-image: linear-gradient(top, #28292A, #303132);
+    border-bottom: 1px solid #1E1F20;
+    border-top: 1px solid #353637;
+
+    border-bottom: 1px solid #1E1E1F;
+    border-left: 1px solid #1E1E1F;
+    border-right: 1px solid #1E1E1F;
+    border-top: 1px solid #343536;
+    box-shadow: 5px 5px 40px rgba(black, 0.4)
+    .stories
+      h4
+        max-width: 100%;
+
+    #home .swipe ul li
+      padding: 30px 0
+
+    #comic
+      margin-left: -1px
+      box-shadow: 5px 5px 40px rgba(black, 0.4)
+      background-image: none;
+      background-image: none;
+      background-color: #3C3E3F;
+      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #28292A), color-stop(100%, #303132));
+      background-image: -webkit-linear-gradient(top, #28292A, #303132);
+      background-image: -moz-linear-gradient(top, #28292A, #303132);
+      background-image: -o-linear-gradient(top, #28292A, #303132);
+      background-image: -ms-linear-gradient(top, #28292A, #303132);
+      background-image: linear-gradient(top, #28292A, #303132);
+      border-bottom: 1px solid #1E1E1F;
+      border-left: 1px solid #1E1E1F;
+      border-right: 1px solid #1E1E1F;
+      border-top: 1px solid #343536;
+      box-shadow: 5px 5px 40px rgba(black, 0.4)
+
+

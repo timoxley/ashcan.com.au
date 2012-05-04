@@ -1,0 +1,92 @@
+@import 'include/core';
+
+body {
+  @include background-image(
+      background_noise($size: 90, $opacity: .07),
+      bevel-gradient(darken($base-color, 1))
+  );
+  background-attachment: fixed
+}
+
+.background {
+  @include background-gradient(darken($list-background-color, 17));
+  
+}
+
+#jqt {
+    > * {
+      overflow-x: hidden
+    }
+    .toolbar {
+      background: #313130;
+
+    }
+
+    /* Lists */
+
+    ul {
+        li {
+            border-top: 1px solid darken($base-color, 5);
+            @include background-gradient(rgba($base-color, .2), matte);
+
+            a {
+                @include color-by-background($list-background-color);
+                text-shadow: rgba(#000, 0.3) -1 -1px 0;
+            }
+
+            .toggle input[type="checkbox"] {
+                @include border-radius(5px);
+                background: #fff url(../img/jqt/on_off.png) 0 0 no-repeat;
+            }
+
+            input[type='submit'] {
+                @include background-gradient(color-by-background($list-background-color), matte);
+                border: 1px outset black;
+            }
+
+            small.counter {
+                @include box-shadow(rgba(#fff,.1) 0 1px 0);
+            }
+
+        } // /li
+
+        &.metal {
+            li {
+                background-image: none;
+                border-top: 1px solid #fff;
+                border-bottom: 1px solid #666;
+                background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(238,238,238,1)), to(rgba(156,158,160,1)));
+
+                a {
+                    text-shadow: #fff 0 1px 0;
+                    &.active { color: #000; }
+                }
+
+                em {
+                    color: #444;
+                }
+            }
+        } // ul.metal
+        
+        &.edgetoedge li {
+            @include background-gradient(darken($base-color, 10), color-stops(darken($base-color, 18), darken($base-color, 15)));
+            border-bottom: 1px solid darken($base-color, 22);
+            border-top: 1px solid darken($base-color, 13);
+            
+            &.sep {
+                @include background-gradient(rgba($list-background-color, .3), matte);
+                @include color-by-background(darken($base-color, 25), 50);
+            }
+        }
+    }
+    
+    .info {
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ccc), to(#aaa), color-stop(.6,#CCCCCC));
+        text-shadow: rgba(255,255,255,.8) 0 1px 0;
+        color: #444;
+        border-top: 1px solid rgba(255,255,255,.2);
+    }
+}
+.corner-folded-top-right {
+  @include folded-corner(top-right);
+}

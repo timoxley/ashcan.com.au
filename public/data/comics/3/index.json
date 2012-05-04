@@ -1,0 +1,143 @@
+{
+    "date": "14/10/2011",
+    "description": "",
+    "price": "5",
+    "code": "TW7R9PPFYJMHW",
+    "stories": [
+        {
+            "name": "Seraphim: Thor",
+            "contributors": [
+                {
+                    "name": "Damian Simankowicz",
+                    "contribution": "Writer/Illustrator",
+                    "url": "seraphimangel.com.au"
+                }
+            ]
+        },
+        {
+            "name": "Rocket Fullmain's Post-Penultimate Adventure",
+            "contributors": [
+                {
+                    "name": "Tom Whalley",
+                    "contribution": "Writer",
+                    "url": "pacwang@gmail.com"
+                },
+                {
+                    "name": "Emmanuel Hernaez",
+                    "contribution": "Illustrator",
+                    "url": "http://mojokingbee.deviantart.com"
+                }
+            ]
+        },
+        {
+            "name": "Og 'n' Dop: Walk in the Park pt II",
+            "contributors": [
+                {
+                    "name": "Martin Buckingham",
+                    "contribution": "Writer/Illustrator",
+                    "url": "marlu01@iprimus.com.au"
+                }
+            ]
+        },
+        {
+            "name": "Sophie",
+            "contributors": [
+                {
+                    "name": "Daniel Klieve",
+                    "contribution": "Writer",
+                    "url": "dklieve@gmail.com "
+                },
+                {
+                    "name": "Ellena Linden",
+                    "contribution": "Illustrator",
+                    "url": "http://www.ellenalinden.com"
+                }
+            ]
+        },
+        {
+            "name": "Heart",
+            "contributors": [
+                {
+                    "name": "Nelson Gibbins",
+                    "contribution": "Writer/Illustrator",
+                    "url": "http://www.g-i-b.deviantart.com"
+                },
+                {
+                    "name": "Syreeta Reed",
+                    "contribution": "Shading"
+                }
+            ]
+        },
+        {
+            "name": "Faeries at Play",
+            "contributors": [
+                {
+                    "name": "Shaun Craike",
+                    "contribution": "Writer/Illustrator",
+                    "url": "http://shaunc.deviantart.com"
+                }
+            ]
+        },
+        {
+            "name": "Poinciana Ash",
+            "contributors": [
+                {
+                    "name": "David Owen",
+                    "contribution": "Writer"
+                },
+                {
+                    "name": "Ben Adams",
+                    "contribution": "Illustrator",
+                    "url": "benjamin.adams3@griffithuni.edu.au"
+                }
+            ]
+        },
+        {
+            "name": "Journey to the West: The Corpse Fiend Thrice Tricks Tang Sanzang: PT I",
+            "contributors": [
+                {
+                    "name": "Darren Fisher",
+                    "contribution": "Writer",
+                    "url": "dazran77@gmail.com"
+                },
+                {
+                    "name": "Anthony Cheung",
+                    "contribution": "Illustrator",
+                    "url": "http://anthonysarts.deviantart.com"
+                }
+            ]
+        },
+        {
+            "name": "Nogitsune Apocalypse 3",
+            "contributors": [
+                {
+                    "name": "Kade Morton",
+                    "contribution": "Writer",
+                    "url": "http://digitalscripturealpha.blogspot.com.au"
+                },
+                {
+                    "name": "Katie Lee Grech",
+                    "contribution": "Illustrator",
+                    "url": "http://katieleegrech.blogspot.com.au/"
+                }
+            ]
+        },
+        {
+            "name": "Coverart",
+            "contributors": [
+                {
+                    "name": "Zachary Smith-Cameron",
+                    "contribution": "Illustrator",
+                    "url": "http://iamzac.deviantart.com"
+                }
+            ]
+        }
+    ],
+    "pages": [
+        "http://ashcan-data.staticloud.com/comics/3/pages/0.jpg",
+        "http://ashcan-data.staticloud.com/comics/3/pages/1.jpg",
+        "http://ashcan-data.staticloud.com/comics/3/pages/2.jpg",
+        "http://ashcan-data.staticloud.com/comics/3/pages/3.jpg",
+        "http://ashcan-data.staticloud.com/comics/3/pages/4.jpg"
+    ]
+}

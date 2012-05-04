@@ -1,0 +1,154 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Data Site for http://ashcan.com.au/</title>
+  <link href="/style.css" rel="stylesheet"/>
+  <style type="text/css">
+  body {
+    font-style: Helvetica
+  }
+  <!--
+  pre { white-space: pre-wrap; font-family: monospace; color: #657b83; background-color: #fdf6e3; }
+  .lnr { color: #93a1a1; background-color: #eee8d5; }
+  .Constant { color: #2aa198; }
+  .Statement { color: #719e07; }
+  .htmlTagName { color: #268bd2; font-weight: bold; }
+  .Title { color: #cb4b16; font-weight: bold; }
+  .Special { color: #dc322f; }
+  .Constant { color: #2aa198; }
+  .Underlined { color: #6c71c4; }
+  -->
+  </style>
+</head>
+
+<body class="jumbotron">
+<h1>Ashcan Site Instructions</h1>
+<div class="container">
+<h2 class="page-header">How to add a Comic</h2>
+<ul>
+  <li>Add comics to `/comics/` as `/comics/1/`, `/comics/2/`,
+  `/comics/n/`, etc</li>
+  <li>Add pages to `/comics/n/pages/1.jpg`, `/comics/n/pages/2.jpg`,
+  `/comics/n/pages/3.jpg`</li>
+  <li>Add comic number in `/index.json` to the 'comics' array.</li>
+</ul>
+<h2>Example comic JSON file</h2>
+<pre>
+{
+  <span class="Statement">date</span>: <span class="Constant">&quot;30/2/2012&quot;</span>,
+  <span class="Statement">description</span>: <span class="Constant">&quot;Markdown&quot;</span>,
+  <span class="Statement">price</span>: <span class="Constant">&quot;5&quot;</span>,
+  <span class="Statement">stories</span>: [
+      {
+      <span class="Statement">name</span>: <span class="Constant">&quot;Story Name&quot;</span>
+      <span class="Statement">contributors</span>: [
+        {
+          <span class="Statement">name</span>: <span class="Constant">&quot;john smith&quot;</span>,
+          <span class="Statement">contribution</span>: <span class="Constant">&quot;artist&quot;</span>,
+          <span class="Statement">url</span>: <span class="Constant">&quot;<a href="http://johnsmith.com">http://johnsmith.com</a>&quot;</span>
+        },
+        {
+          <span class="Statement">name</span>: <span class="Constant">&quot;john smith&quot;</span>,
+          <span class="Statement">contribution</span>: <span class="Constant">&quot;artist&quot;</span>,
+          <span class="Statement">url</span>: <span class="Constant">&quot;<a href="http://johnsmith.com">http://johnsmith.com</a>&quot;</span>
+        }
+      ]
+    }
+  ],
+  <span class="Statement">pages</span>: [
+    <span class="Constant">&quot;<a href="http://ashcan-data.staticloud.com/comics/1/pages/0.jpg">http://ashcan-data.staticloud.com/comics/1/pages/0.jpg</a>&quot;</span>,
+    <span class="Constant">&quot;<a href="http://ashcan-data.staticloud.com/comics/1/pages/1.jpg">http://ashcan-data.staticloud.com/comics/1/pages/1.jpg</a>&quot;</span>,
+    <span class="Constant">&quot;<a href="http://ashcan-data.staticloud.com/comics/1/pages/2.jpg">http://ashcan-data.staticloud.com/comics/1/pages/2.jpg</a>&quot;</span>,
+    <span class="Constant">&quot;<a href="http://ashcan-data.staticloud.com/comics/1/pages/3.jpg">http://ashcan-data.staticloud.com/comics/1/pages/3.jpg</a>&quot;</span>,
+    <span class="Constant">&quot;<a href="http://ashcan-data.staticloud.com/comics/1/pages/4.jpg">http://ashcan-data.staticloud.com/comics/1/pages/4.jpg</a>&quot;</span>,
+    <span class="Constant">&quot;<a href="http://ashcan-data.staticloud.com/comics/1/pages/5.jpg">http://ashcan-data.staticloud.com/comics/1/pages/5.jpg</a>&quot;</span>
+  ]
+}
+</pre>
+<h2>How to add News</h2>
+<ul>
+  <li>Add <a
+    href="http://daringfireball.net/projects/markdown/syntax">markdown</a>
+  file to /news/ as `/news/1.md`, `/news/2.md`, `/news/n`, etc</li>
+  <li>Add news number in `/index.json` to the 'news' array.</li>
+</ul>
+
+<h2>How to upload</h2>
+<ul>
+  <li>Zip site up.</li>
+  <li>Drop on <a href="http://staticloud.com">staticloud.com</a></li>
+</ul>
+
+<h3>Example markdown</h3>
+
+<pre>
+[<span class="Underlined"><a href="http://daringfireball.net/projects/markdown/syntax">http://daringfireball.net/projects/markdown/syntax</a></span>](<span class="Constant"><a href="http://daringfireball.net/projects/markdown/syntax">http://daringfireball.net/projects/markdown/syntax</a></span>)
+
+<span class="Special">#</span><span class="Title"> Heading 1</span>
+
+<span class="Special">##</span><span class="Title"> Heading 2</span>
+
+<span class="Special">###</span><span class="Title"> Is a Heading 3</span>
+
+This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut odio metus, ac aliquam odio. Nullam fringilla lobortis arcu. Donec ac ipsum et dolor viverra venenatis. Integer viverra eleifend nisl ut condimentum. Donec fermentum, est nec iaculis euismod, nunc mauris condimentum lorem, id tristique dui leo nec nunc. Donec sit amet orci in lectus auctor euismod sed quis tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque diam purus, posuere at aliquet vel, luctus molestie velit.
+
+<span class="Special">##</span><span class="Title"> Unordered List</span>
+
+<span class="htmlTagName">*</span> This
+<span class="htmlTagName">*</span> Is
+<span class="htmlTagName">*</span> A
+<span class="htmlTagName">*</span> List of things
+
+<span class="Special">##</span><span class="Title"> Ordered List</span>
+
+<span class="htmlTagName">1.</span> This
+<span class="htmlTagName">2.</span> Is a
+<span class="htmlTagName">3.</span> Numbered
+<span class="htmlTagName">3.</span> List
+<span class="htmlTagName">3.</span> Numbers on left
+<span class="htmlTagName">3.</span> Don't actually matter.
+
+[<span class="Underlined"><a href="http://google.com">http://google.com</a></span>](<span class="Constant">This</span> <span class="Constant">is</span> <span class="Constant">a</span> <span class="Constant">link</span>)
+
+![<span class="Underlined">This is an Image</span>](<span class="Constant">/comic/1/pages/1.jpg</span>)
+</pre>
+
+<h4>Produces the following output:</h4>
+
+<p><a href="http://daringfireball.net/projects/markdown/syntax">http://daringfireball.net/projects/markdown/syntax</a></p>
+
+<h1>Heading 1</h1>
+
+<h2>Heading 2</h2>
+
+<h3>Is a Heading 3</h3>
+
+<p>This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut odio metus, ac aliquam odio. Nullam fringilla lobortis arcu. Donec ac ipsum et dolor viverra venenatis. Integer viverra eleifend nisl ut condimentum. Donec fermentum, est nec iaculis euismod, nunc mauris condimentum lorem, id tristique dui leo nec nunc. Donec sit amet orci in lectus auctor euismod sed quis tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque diam purus, posuere at aliquet vel, luctus molestie velit.</p>
+
+<h2>Unordered List</h2>
+
+<ul>
+<li>This</li>
+<li>Is</li>
+<li>A</li>
+<li>List of things</li>
+</ul>
+
+<h2>Ordered List</h2>
+
+<ol>
+<li>This</li>
+<li>Is a</li>
+<li>Numbered</li>
+<li>List</li>
+<li>Numbers on left</li>
+<li>Don't actually matter.</li>
+</ol>
+
+<p><a href="This is a link">http://google.com</a></p>
+
+<p><img src="/comic/1/pages/1.jpg" alt="This is an Image" title=""></p>
+</div>
+</body>
+</html>
